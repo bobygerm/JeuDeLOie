@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialoguerejouer">Rejouer ?</string>
+    <string name="non">Non</string>
+    <string name="oui">Oui</string>
+    <string name="texteauberge">Bienvenue! Restez avec nous pendant 2 tours s\'il vous plaît </string>
+    <string name="title_activity_accueil">Accueil TV</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="textepont">Traversez le pont et rejouez  !</string>
+    <string name="texteoie">Avancez jusqu\'à la prochaine oie</string>
+    <string name="textedes">Avancez jusqu\'au prochain dé et rejouez</string>
+    <string name="textepuit">Attendez trois tours ou bien qu\'un autre joueur vous libère en tombant sur la même case</string>
+    <string name="textelabyrinthe">Retournez à la case 30 et passez un tour</string>
+    <string name="texteprison">Passez trois tours</string>
+    <string name="textetetemort">Désolé, retournez à la case 1</string>
+    <string name="textearrivee">Vous avez gagné !</string>
+    <string name="texteaccueil">Attendez l\'arrivée des autres joueurs, ou démarrez seul</string>
+    <string name="bienvenue">Bienvenue sur</string>
+    <string name="app_name">Jeu de l\'oie</string>
+    <string name="amontour">A mon tour</string>
+    <string name="textepasser">Passe ton tour</string>
+    <string name="title_activity_activite_tvresultats">Résultats du jeu</string>
+</resources>

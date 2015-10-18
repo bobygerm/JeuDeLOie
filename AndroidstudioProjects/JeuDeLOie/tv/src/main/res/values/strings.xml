@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Game of the goose</string>
+    <string name="title_activity_accueil">Accueil TV</string>
+    <string name="service_id" translatable="false">debut.jeudeloie</string>
+    <string name="bienvenue">Welcome to</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="dialoguerejouer">Replay ?</string>
+    <string name="oui">Yes</string>
+    <string name="non">No</string>
+    <string name="amontour">My turn</string>
+
+    <string name="texteaccueil">Wait for other players to come in, or start alone</string>
+    <string name="texteoie">Advance to the next goose</string>
+    <string name="textepont">Cross the bridge and replay  !</string>
+    <string name="texteauberge">Welcome ! Please stay with us during 2 turns</string>
+    <string name="textedes">Advance to the next dice and replay</string>
+    <string name="textepuit">Wait three turns or another player frees you falling on the same box</string>
+    <string name="textelabyrinthe">Return to the box 30 and have a round</string>
+    <string name="texteprison">Pass three turns</string>
+    <string name="textetetemort">Sorry, go back to box 1</string>
+    <string name="textearrivee">You have won!</string>
+    <string name="title_activity_activite_tvresultats">Game results</string>
+    <string name="textepasser">Spend your turn</string>
+
+</resources>

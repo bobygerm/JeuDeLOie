@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+    <dimen name="largeuroeuf">55dp</dimen>
+    <dimen name="largeuroeufhorizontal">90dp</dimen>
+    <dimen name="largeuroeufcoinbiais">70dp</dimen>
+    <dimen name="margeoeuf">4dp</dimen>
+
+</resources>

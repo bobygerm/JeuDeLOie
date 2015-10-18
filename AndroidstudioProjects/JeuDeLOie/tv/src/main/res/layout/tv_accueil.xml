@@ -1,0 +1,2096 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlhaut"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="debut.jeudeloie.ActiviteTVAccueil">
+
+    <RelativeLayout
+        android:id="@+id/rlcase1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rlcase5"
+        android:layout_alignParentLeft="false"
+        android:layout_marginBottom="10dp"
+        android:layout_toLeftOf="@+id/rlcase2">
+
+        <ImageView
+            android:id="@+id/case1"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu"
+            android:tint="#857928" />
+
+        <TextView
+            android:id="@+id/numero1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="4dp"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="1"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase1"
+        android:layout_toLeftOf="@+id/rlcase3">
+
+        <ImageView
+            android:id="@+id/case2"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="2"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase1"
+        android:layout_toLeftOf="@+id/rlcase4">
+
+        <ImageView
+            android:id="@+id/case3"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="3"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase1"
+        android:layout_toLeftOf="@+id/rlcase5">
+
+        <ImageView
+            android:id="@+id/case4"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="4"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/rlcase6">
+
+        <ImageView
+            android:id="@+id/case5"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5103c09" />
+
+        <ImageView
+            android:id="@+id/case5image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case5"
+            android:layout_alignLeft="@+id/case5"
+            android:layout_alignRight="@+id/case5"
+            android:layout_alignTop="@+id/case5"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/oie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="5"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase5"
+        android:layout_toLeftOf="@+id/rlcase7">
+
+        <ImageView
+            android:id="@+id/case6"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5c1bf31" />
+
+        <ImageView
+            android:id="@+id/case6image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case6"
+            android:layout_alignLeft="@+id/case6"
+            android:layout_alignRight="@+id/case6"
+            android:layout_alignTop="@+id/case6"
+            android:layout_margin="2dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pont" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:text="6"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:padding="4dp"
+            android:layout_marginLeft="4dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase6"
+        android:layout_toLeftOf="@+id/rlcase8">
+
+        <ImageView
+            android:id="@+id/case7"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="7"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase7"
+        android:layout_toLeftOf="@+id/rlcase9">
+
+        <ImageView
+            android:id="@+id/case8"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="8"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rlcase8"
+        android:layout_alignParentRight="false"
+        android:layout_toLeftOf="@+id/rlcase10">
+
+        <ImageView
+            android:id="@+id/case9"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5063c09" />
+
+        <ImageView
+            android:id="@+id/case9image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case9"
+            android:layout_alignLeft="@+id/case9"
+            android:layout_alignRight="@+id/case9"
+            android:layout_alignTop="@+id/case9"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/oie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="9"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="false"
+        android:layout_alignRight="@+id/rlcase11"
+        android:layout_alignTop="@+id/rlcase9"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:id="@+id/case10"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="10"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlcase10"
+        android:layout_alignLeft="@+id/rlcase12">
+
+        <ImageView
+            android:id="@+id/case11"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="11"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlcase11"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@+id/case12"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5c1bf31" />
+
+        <ImageView
+            android:id="@+id/case12image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case12"
+            android:layout_alignLeft="@+id/case12"
+            android:layout_alignRight="@+id/case12"
+            android:layout_alignTop="@+id/case12"
+            android:layout_margin="2dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pont" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="12"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_marginRight="4dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="false"
+            android:layout_marginLeft="40dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlcase12"
+        android:layout_alignLeft="@+id/rlcase12">
+
+        <ImageView
+            android:id="@+id/case13"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="13"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlcase13"
+        android:layout_alignLeft="@+id/rlcase13">
+
+        <ImageView
+            android:id="@+id/case14"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5103c09" />
+
+        <ImageView
+            android:id="@+id/case14image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case14"
+            android:layout_alignLeft="@+id/case14"
+            android:layout_alignRight="@+id/case14"
+            android:layout_alignTop="@+id/case14"
+            android:layout_margin="2dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/oie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="14"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlcase14"
+        android:layout_alignLeft="@+id/rlcase14">
+
+        <ImageView
+            android:id="@+id/case15"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="15"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlcase15"
+        android:layout_alignLeft="@+id/rlcase15"
+        android:layout_alignParentRight="false">
+
+        <ImageView
+            android:id="@+id/case16"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="16"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlcase16"
+        android:layout_alignLeft="@+id/rlcase16">
+
+        <ImageView
+            android:id="@+id/case17"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="17"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlcase17"
+        android:layout_alignRight="@+id/rlcase17"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/case18"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5103c09" />
+
+        <ImageView
+            android:id="@+id/case18image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case18"
+            android:layout_alignLeft="@+id/case18"
+            android:layout_alignRight="@+id/case18"
+            android:layout_alignTop="@+id/case18"
+            android:layout_margin="2dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/oie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="18"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rlcase18"
+        android:layout_toLeftOf="@+id/rlcase18">
+
+        <ImageView
+            android:id="@+id/case19"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d56d171a" />
+
+        <ImageView
+            android:id="@+id/case19image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case19"
+            android:layout_alignLeft="@+id/case19"
+            android:layout_alignRight="@+id/case19"
+            android:layout_alignTop="@+id/case19"
+            android:layout_margin="2dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/lithotel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="19"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase19"
+        android:layout_toLeftOf="@+id/rlcase19">
+
+        <ImageView
+            android:id="@+id/case20"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="20"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase20"
+        android:layout_toLeftOf="@+id/rlcase20">
+
+        <ImageView
+            android:id="@+id/case21"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="21"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase21"
+        android:layout_toLeftOf="@+id/rlcase21">
+
+        <ImageView
+            android:id="@+id/case22"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="22"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignTop="@+id/rlcase22"
+        android:layout_toLeftOf="@+id/rlcase22">
+
+        <ImageView
+            android:id="@+id/case23"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5103c09" />
+
+        <ImageView
+            android:id="@+id/case23image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case23"
+            android:layout_alignLeft="@+id/case23"
+            android:layout_alignRight="@+id/case23"
+            android:layout_alignTop="@+id/case23"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/oie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="23"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignTop="@+id/rlcase23"
+        android:layout_below="@+id/rlcase23"
+        android:layout_toLeftOf="@+id/rlcase23">
+
+        <ImageView
+            android:id="@+id/case24"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="24"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase24"
+        android:layout_toLeftOf="@+id/rlcase24">
+
+        <ImageView
+            android:id="@+id/case25"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="25"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase25"
+        android:layout_toLeftOf="@+id/rlcase25">
+
+        <ImageView
+            android:id="@+id/case26"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5394f72" />
+
+        <ImageView
+            android:id="@+id/case26image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case26"
+            android:layout_alignLeft="@+id/case26"
+            android:layout_alignRight="@+id/case26"
+            android:layout_alignTop="@+id/case26"
+            android:layout_margin="2dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/deuxdes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="26"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase26"
+        android:layout_marginTop="25dp"
+        android:layout_toLeftOf="@+id/rlcase26">
+
+        <ImageView
+            android:id="@+id/case27"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5103c09" />
+
+        <ImageView
+            android:id="@+id/case27image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case27"
+            android:layout_alignLeft="@+id/case27"
+            android:layout_alignRight="@+id/case27"
+            android:layout_alignTop="@+id/case27"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/oie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="27"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rlcase27"
+        android:layout_below="@+id/rlcase27">
+
+        <ImageView
+            android:id="@+id/case28"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="28"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rlcase28"
+        android:layout_below="@+id/rlcase28">
+
+        <ImageView
+            android:id="@+id/case29"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="29"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rlcase29"
+        android:layout_below="@+id/rlcase29">
+
+        <ImageView
+            android:id="@+id/case30"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="30"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rlcase30"
+        android:layout_below="@+id/rlcase30">
+
+        <ImageView
+            android:id="@+id/case31"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d506201f" />
+
+        <ImageView
+            android:id="@+id/case31image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case31"
+            android:layout_alignLeft="@+id/case31"
+            android:layout_alignRight="@+id/case31"
+            android:layout_alignTop="@+id/case31"
+            android:layout_margin="4dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/puit"
+            android:background="#d58e4b27"
+            android:clickable="true"
+            android:tint="#d5ced0d8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="31"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rlcase31"
+        android:layout_below="@+id/rlcase31">
+
+        <ImageView
+            android:id="@+id/case32"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5103c09" />
+
+        <ImageView
+            android:id="@+id/case32image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case32"
+            android:layout_alignLeft="@+id/case32"
+            android:layout_alignRight="@+id/case32"
+            android:layout_alignTop="@+id/case32"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/oie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="32"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/rlcase32"
+        android:layout_below="@+id/rlcase32"
+        android:layout_marginBottom="-20dp">
+
+        <ImageView
+            android:id="@+id/case33"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="33"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rlcase33"
+        android:layout_marginBottom="-10dp"
+        android:layout_toRightOf="@+id/rlcase33">
+
+        <ImageView
+            android:id="@+id/case34"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="34"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rlcase34"
+        android:layout_toRightOf="@+id/rlcase34">
+
+        <ImageView
+            android:id="@+id/case35"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="35"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase35"
+        android:layout_toRightOf="@+id/rlcase35">
+
+        <ImageView
+            android:id="@+id/case36"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5103c09" />
+
+        <ImageView
+            android:id="@+id/case36image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case36"
+            android:layout_alignLeft="@+id/case36"
+            android:layout_alignRight="@+id/case36"
+            android:layout_alignTop="@+id/case36"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/oie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="36"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase36"
+        android:layout_toRightOf="@+id/rlcase36">
+
+        <ImageView
+            android:id="@+id/case37"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="37"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rlcase37"
+        android:layout_toRightOf="@+id/rlcase37">
+
+        <ImageView
+            android:id="@+id/case38"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="38"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rlcase38"
+        android:layout_toRightOf="@+id/rlcase38">
+
+        <ImageView
+            android:id="@+id/case39"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="39"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rlcase39"
+        android:layout_toRightOf="@+id/rlcase39">
+
+        <ImageView
+            android:id="@+id/case40"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="40"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rlcase40"
+        android:layout_toRightOf="@+id/rlcase40">
+
+        <ImageView
+            android:id="@+id/case41"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5103c09" />
+
+        <ImageView
+            android:id="@+id/case41image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case41"
+            android:layout_alignLeft="@+id/case41"
+            android:layout_alignRight="@+id/case41"
+            android:layout_alignTop="@+id/case41"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/oie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="41"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlcase41"
+        android:layout_alignLeft="@+id/rlcase41"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:id="@+id/case42"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5c8c8d6" />
+
+        <ImageView
+            android:id="@+id/case42image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case42"
+            android:layout_alignLeft="@+id/case42"
+            android:layout_alignRight="@+id/case42"
+            android:layout_alignTop="@+id/case42"
+            android:layout_margin="2dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/parcours" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="42"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlcase42"
+        android:layout_alignRight="@+id/rlcase42">
+
+        <ImageView
+            android:id="@+id/case43"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="43"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlcase43"
+        android:layout_alignLeft="@+id/rlcase43">
+
+        <ImageView
+            android:id="@+id/case44"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="44"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlcase44"
+        android:layout_alignRight="@+id/rlcase44">
+
+        <ImageView
+            android:id="@+id/case45"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5103c09" />
+
+        <ImageView
+            android:id="@+id/case45image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case45"
+            android:layout_alignLeft="@+id/case45"
+            android:layout_alignRight="@+id/case45"
+            android:layout_alignTop="@+id/case45"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/oie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="45"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlcase45"
+        android:layout_alignRight="@+id/rlcase45"
+        android:layout_marginRight="40dp">
+
+        <ImageView
+            android:id="@+id/case46"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="46"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase46"
+        android:layout_toLeftOf="@+id/rlcase46">
+
+        <ImageView
+            android:id="@+id/case47"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="47"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase47"
+        android:layout_toLeftOf="@+id/rlcase47">
+
+        <ImageView
+            android:id="@+id/case48"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="48"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase48"
+        android:layout_toLeftOf="@+id/rlcase48">
+
+        <ImageView
+            android:id="@+id/case49"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="49"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase49"
+        android:layout_toLeftOf="@+id/rlcase49">
+
+        <ImageView
+            android:id="@+id/case50"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5103c09" />
+
+        <ImageView
+            android:id="@+id/case50image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case50"
+            android:layout_alignLeft="@+id/case50"
+            android:layout_alignRight="@+id/case50"
+            android:layout_alignTop="@+id/case50"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/oie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="50"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rlcase50"
+        android:layout_toLeftOf="@+id/rlcase50">
+
+        <ImageView
+            android:id="@+id/case51"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="51"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase51"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/rlcase51">
+
+        <ImageView
+            android:id="@+id/case52"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d50e0c19" />
+
+        <ImageView
+            android:id="@+id/case52image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case52"
+            android:layout_alignLeft="@+id/case52"
+            android:layout_alignRight="@+id/case52"
+            android:layout_alignTop="@+id/case52"
+            android:layout_margin="2dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/prison" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="52"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/rlcase52"
+        android:layout_below="@+id/rlcase52"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/case53"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5394f72" />
+
+        <ImageView
+            android:id="@+id/case53image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case53"
+            android:layout_alignLeft="@+id/case53"
+            android:layout_alignRight="@+id/case53"
+            android:layout_alignTop="@+id/case53"
+            android:layout_margin="2dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/deuxdes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="53"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rlcase53"
+        android:layout_below="@+id/rlcase53"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:id="@+id/case54"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5103c09" />
+
+        <ImageView
+            android:id="@+id/case54image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case54"
+            android:layout_alignLeft="@+id/case54"
+            android:layout_alignRight="@+id/case54"
+            android:layout_alignTop="@+id/case54"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/oie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="54"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rlcase54"
+        android:layout_below="@+id/rlcase54"
+        android:layout_marginLeft="50dp">
+
+        <ImageView
+            android:id="@+id/case55"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="55"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rlcase55"
+        android:layout_toRightOf="@+id/rlcase55">
+
+        <ImageView
+            android:id="@+id/case56"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="56"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rlcase56"
+        android:layout_toRightOf="@+id/rlcase56">
+
+        <ImageView
+            android:id="@+id/case57"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="57"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rlcase57"
+        android:layout_toRightOf="@+id/rlcase57">
+
+        <ImageView
+            android:id="@+id/case58"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5110919" />
+
+        <ImageView
+            android:id="@+id/case58image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case58"
+            android:layout_alignLeft="@+id/case58"
+            android:layout_alignRight="@+id/case58"
+            android:layout_alignTop="@+id/case58"
+            android:layout_margin="2dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/fusil"
+            android:background="#d5000000" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:text="58"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/case58"
+            android:padding="4dp"
+            android:layout_marginRight="8dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rlcase58"
+        android:layout_toRightOf="@+id/rlcase58">
+
+        <ImageView
+            android:id="@+id/case59"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/casejeu"
+            android:tint="#d5103c09" />
+
+        <ImageView
+            android:id="@+id/case59image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case59"
+            android:layout_alignLeft="@+id/case59"
+            android:layout_alignRight="@+id/case59"
+            android:layout_alignTop="@+id/case59"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/oie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="59"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlcase59"
+        android:layout_alignRight="@+id/rlcase59">
+
+        <ImageView
+            android:id="@+id/case60"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="60"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlcase60"
+        android:layout_alignRight="@+id/rlcase60"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/case61"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="61"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase61"
+        android:layout_toLeftOf="@+id/rlcase61">
+
+        <ImageView
+            android:id="@+id/case62"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/casejeu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="62"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlcase63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlcase62"
+        android:layout_toLeftOf="@+id/rlcase62">
+
+        <ImageView
+            android:id="@+id/case63"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/casejeu" />
+
+        <ImageView
+            android:id="@+id/case63image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/case63"
+            android:layout_alignLeft="@+id/case63"
+            android:layout_alignRight="@+id/case63"
+            android:layout_alignTop="@+id/case63"
+            android:layout_margin="2dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/etang"
+            android:background="#d54ea51f" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/etiquettecase"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="63"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvcoupde"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:background="#d5decb36"
+        android:gravity="center"
+        android:text="3"
+        android:textColor="#a06365"
+        android:textSize="200sp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/joueur4_tout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/joueur4_image"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/teteoie"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/joueur4_nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/joueur3_tout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/joueur3_image"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/teteoie"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/joueur3_nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/joueur2_tout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/joueur2_image"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/teteoie"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/joueur2_nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/joueur1_tout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/joueur1_image"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/teteoie"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/joueur1_nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/texteAccueil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texteaccueil"
+        android:textSize="55sp"
+        android:gravity="center_horizontal"
+        android:background="#d5b3ac10"
+        android:padding="10dp" />
+
+    <ImageButton
+        android:id="@+id/imageStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_play_light"
+        android:visibility="invisible"
+        android:scaleType="fitCenter"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/texteAccueil"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/rlcase1" />
+
+    <ImageButton
+        android:id="@+id/imageJouer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_play_light"
+        android:visibility="invisible"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/texteAccueil"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/rlcase1" />
+
+</RelativeLayout>
