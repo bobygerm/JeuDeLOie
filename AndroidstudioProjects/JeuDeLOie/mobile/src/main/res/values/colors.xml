@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_material_dark">#e3e00e</color>
+    <color name="primary_material_dark">#364a03</color>
+    <color name="statusBarColor">#420202</color>
+    <color name="foreground_material_dark">#ccc59e</color>
+    <color name="accent_material_dark_1">#933453</color>
+    <color name="background_material_dark">#4f4d48</color>
+
+
+    <color name="primary_jaune_bleu">#CDDC39</color>
+    <color name="primary_dark_jaune_bleu">#AFB42B</color>
+    <color name="primary_light_jaune_bleu">#F0F4C3</color>
+    <color name="accent_jaune_bleu">#448AFF</color>
+    <color name="primary_text_jaune_bleu">#212121</color>
+    <color name="secondary_text_jaune_bleu">#727272</color>
+    <color name="icons_jaune_bleu">#212121</color>
+    <color name="divider_jaune_bleu">#B6B6B6</color>
+</resources>
