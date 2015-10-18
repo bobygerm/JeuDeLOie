@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Game of the goose</string>
+    <string name="bienvenue">Welcome to</string>
+    <string name="entetetv">TV</string>
+    <string name="entetejoueurs">Players</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="amontour">My turn</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="android:colorForeground">@color/primary_dark_jaune_bleu</item>
+        <item name="android:colorBackground">@color/primary_light_jaune_bleu</item>
+        <item name="colorPrimary">@color/primary_jaune_bleu</item>
+        <item name="colorPrimaryDark">@color/primary_dark_jaune_bleu</item>
+        <item name="colorAccent">@color/accent_jaune_bleu</item>
+        <item name="android:textColorPrimary">@color/primary_text_jaune_bleu</item>
+        <item name="android:textColorSecondary">@color/secondary_text_jaune_bleu</item>
+    </style>
+
+</resources>

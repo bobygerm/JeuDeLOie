@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jeu de l\'oie</string>
+    <string name="amontour">A mon tour</string>
+    <string name="entetejoueurs">Joueurs</string>
+    <string name="entetetv">TV</string>
+    <string name="bienvenue">Bienvenue sur</string>
+    <string name="action_settings">Paramètres</string>
+</resources>
