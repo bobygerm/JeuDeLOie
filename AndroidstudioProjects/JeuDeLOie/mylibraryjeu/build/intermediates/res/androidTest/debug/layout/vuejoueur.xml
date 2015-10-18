@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/vuejoueurnumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/vuejoueurimage"
+        android:gravity="center"
+        android:layout_alignParentEnd="false"
+        android:layout_centerVertical="true" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/vuejoueurimage"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="false"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/vuejoueurnumero"
+        android:src="@drawable/teteoie"
+        app:civ_border_color="#FFFFFFFF"
+        app:civ_border_width="2dp"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/vuejoueurtexte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/vuejoueurimage"
+        android:gravity="center_vertical"
+        android:text="..."
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/vuejoueurposition"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/vueiconegagnant"
+        android:layout_toRightOf="@+id/vuejoueurtexte"
+        android:gravity="center_vertical|right" />
+
+    <TextView
+        android:id="@+id/vuepenalitetitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/vuepenalitevaleur"
+        android:layout_alignBaseline="@+id/vuepenalitevaleur"
+        android:text="@string/textepenalite"
+        android:paddingRight="8dp"
+        android:gravity="center_vertical|right"/>
+
+    <TextView
+        android:id="@+id/vuepenalitevaleur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/vuejoueurposition"
+        android:layout_below="@+id/vuejoueurposition"
+        android:gravity="center_vertical|right" />
+
+    <ImageView
+        android:id="@+id/vueiconegagnant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout><!-- From: file:/home/robert/AndroidstudioProjects/JeuDeLOie/mylibraryjeu/src/main/res/layout/vuejoueur.xml --><!-- From: file:/home/robert/AndroidstudioProjects/JeuDeLOie/mylibraryjeu/build/intermediates/bundles/debug/res/layout/vuejoueur.xml -->
